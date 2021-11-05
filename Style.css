@@ -1,0 +1,203 @@
+ #profile-picture
+ {
+    width: 310px;
+    height:330px;
+    border-radius: 50%;
+}
+ 
+ 
+body
+{
+    background-color: rgba(255, 190, 58, 0.05);
+}
+ 
+ 
+ 
+h1,h2 
+{
+    color:rgba(185, 122, 226, 0.8);
+    font-family: 'Merriweather', serif;
+               
+}
+ 
+h1 
+{
+    font-size: 45px;
+    font-weight: 200;
+    text-align: center;
+}
+ 
+h2 
+{
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+}
+ 
+.Photo-profile
+{
+    color: black;
+    font-family: 'Lora', serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.bienvenue
+{
+    color: black;
+    font-family: 'Alice', serif;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p 
+{
+    color: black;
+    font-family: 'Alice', serif;
+    font-size: 15px;
+    text-align: left;
+    font-style: italic;
+}
+ 
+ .btn-purple 
+ {
+    border: solid 1px #8d8f9f;
+    background: rgba(230, 230, 230, 1.0);
+    color: black;
+    padding: 6px;
+    width: 110px;
+    border-radius: 2px;
+}
+
+.btn-purple:hover {
+    color: black;
+    background: rgba(185, 122, 226, 0.8) ;
+    border:  solid 1px #909cfb;
+    transition: 0.5s;
+}
+
+a 
+{
+    text-decoration: none;
+    color: rgba(185, 122, 226, 1.0);
+    font-family: "Alice";
+    font-size: 13px;
+}
+ 
+a:hover 
+{
+    color: rgba(185, 122, 226, 1.0);
+    font-size: 18px;
+    text-decoration: none;
+    font-style: no;
+    font-weight: 500;
+
+}
+
+.list-inline {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+    li{
+        margin-bottom: 15px;
+        display: inline;
+    }
+
+#profile-picture {
+    width: 232px;
+    height: 232px;
+    border-radius: 50%;
+}
+
+div{
+    background: white;
+    padding: 30px;
+    margin: 12px auto;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.5);
+    width: 500px ;
+}
+
+.button {
+    width: 160px;
+    height: 96px;
+    padding: 8px;
+    color : #345B63;
+    border-radius: 6px;
+    border: solid 1px #345B63;
+}
+
+.button hover {
+    background: #345B63;
+    color: #345B63;
+    border: solid 1px #345B63;
+    transition: 0,5s;
+}
+
+.Liste
+{
+    color: white;
+    font-family: 'Alice', serif ;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#foot-img-card 
+{
+  background-image: url(Image/Foot.jpg);
+  background-position: center;
+}
+
+#foot-img-card h2 {
+  color: white;
+}
+
+#foot-img-card p {
+  color: black;
+  font-weight: bolder;
+}
+
+.card-white {
+    background: white;
+    padding: 30px;
+    margin: 80px auto;
+    border-radius: 0 15px 35px rgba(50, 50, 93, 0.5);
+    box-shadow: 8px;
+    text-align : center;
+}
+
+.container {
+    width : 1040px;
+    padding: 24px;
+    margin: 0 auto;
+    background: rgba(50, 50, 93, 0);
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0,5);
+}
+
+
+/* media queries */
+
+ @media(max-width:900px)
+{
+    .container
+    {
+        width: 700px;
+    }
+}
+
+@media(max-width: 600px)
+{
+    .container 
+    {
+        width: 400px; 
+    }
+}
+
+
+
+
